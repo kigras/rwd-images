@@ -1,10 +1,11 @@
 <html>
 <head>
-
-
+  <meta name="viewport" content="width=device-width" />
+  <meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
 </head>
 
 <body>
+<script src="http://afarkas.github.io/lazysizes/lazysizes.min.js" async=""></script>
   <center><h1>My Summer Vacation 2017</center></h1>
   
  <p> Last year, I took an epic journey across Europe.  I created this page to show off the photos of some of the awsome places that I saw during my vacation.</p>
@@ -13,56 +14,326 @@
   <p>The first awesome place I'd like to share with you is Plitvice Lakes in the middle of Croatia.  These are natural waterfalls that you visit by walking on wooden platforms. </p>
   
 
-    <img width = "100%" src = "http://res.cloudinary.com/hackchallenge/image/upload/w_4000/v1521063217/MyVacation/IMG_20160619_173136306.jpg"/>
+    <!-- <img width = "100%" src = "http://res.cloudinary.com/hackchallenge/image/upload/w_4000,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_173136306.jpg"/> -->
+    <img
+    data-sizes="(max-width: 1920px) 100vw, 1920px"
+    data-srcset="
+        http://res.cloudinary.com/hackchallenge/image/upload/w_300,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_173136306.jpg 300w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_590,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_173136306.jpg 590w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_800,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_173136306.jpg 800w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_974,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_173136306.jpg 974w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1138,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_173136306.jpg 1138w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1282,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_173136306.jpg 1282w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1416,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_173136306.jpg 1416w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1548,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_173136306.jpg 1548w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1683,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_173136306.jpg 1683w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1804,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_173136306.jpg 1804w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1878,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_173136306.jpg 1870w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1920,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_173136306.jpg 1920w"
+        data-src="http://res.cloudinary.com/hackchallenge/image/upload/w_1920,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_173136306.jpg"
+        class="lazyload"
 
+        style="background-size: cover; background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNjE2IDY2NCI+PGZpbHRlciBpZD0iYiI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMTIiIC8+PC9maWx0ZXI+PHBhdGggZmlsbD0iIzgyOTk3NiIgZD0iTTAgMGgzNjE2djY2M0gweiIvPjxnIGZpbHRlcj0idXJsKCNiKSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNyA3KSBzY2FsZSgxNC4xMjUpIiBmaWxsLW9wYWNpdHk9Ii41Ij48ZWxsaXBzZSBmaWxsPSIjYzBkNWRkIiByeD0iMSIgcnk9IjEiIHRyYW5zZm9ybT0ibWF0cml4KC0yMC41Nzg1NSAtOTkuOTUxNSAyMC42NTg5NiAtNC4yNTMzOCAxMjUuMyAyOC4yKSIvPjxlbGxpcHNlIGZpbGw9IiMzZjUzMzAiIHJ4PSIxIiByeT0iMSIgdHJhbnNmb3JtPSJtYXRyaXgoMTMuMzM4MTggLTE1LjM2NTc5IDI3LjI0ODkzIDIzLjY1MzI2IDU2LjggMjEuNCkiLz48ZWxsaXBzZSBmaWxsPSIjNDg2MjE5IiByeD0iMSIgcnk9IjEiIHRyYW5zZm9ybT0icm90YXRlKC02NS42IDExMS4yIC0xNTQuMikgc2NhbGUoMTMuNzY5MTkgMzEuNzUwMDkpIi8+PGVsbGlwc2UgZmlsbD0iI2I2Y2ViNCIgY3g9IjE4NCIgY3k9IjQ1IiByeD0iNjUiIHJ5PSIyMCIvPjxwYXRoIGZpbGw9IiMyYTQzMmEiIGQ9Ik0xNjQgMS45bC0xNS4yIDQzLjMgMS0yMi4zIDU5LjgtMTMuNXoiLz48cGF0aCBmaWxsPSIjYjNjMTk0IiBkPSJNOC4xIDYybDY3LjMtNDItNTkuNSAxMS42TC0xMi4zIDYyeiIvPjxwYXRoIGZpbGw9IiM0ODRlM2IiIGQ9Ik0yNyA1aDYydjIySDI3eiIvPjxwYXRoIGZpbGw9IiNkNWQ0YTIiIGQ9Ik0yMDkgMjJsLTMyLTExLTMwIDMweiIvPjwvZz48L3N2Zz4=);"
+
+    alt="">
  
   <br/>
   <center>
 
-    <img width = "32%" src = "http://res.cloudinary.com/hackchallenge/image/upload/w_2500/v1521063209/MyVacation/IMG_20160619_190429.jpg"/>
+<!--     <img width = "32%" src = "http://res.cloudinary.com/hackchallenge/image/upload/w_2500,q_auto,f_auto/v1521063209/MyVacation/IMG_20160619_190429.jpg"/>
+ -->    
+    <img
 
+    data-sizes="(min-width: 500px) 32vw, 100vw"
+    data-srcset="
+        http://res.cloudinary.com/hackchallenge/image/upload/w_300,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190429.jpg 300w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_590,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190429.jpg 590w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_800,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190429.jpg 800w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_974,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190429.jpg 974w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1138,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190429.jpg 1138w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1282,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190429.jpg 1282w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1416,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190429.jpg 1416w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1548,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190429.jpg 1548w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1683,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190429.jpg 1683w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1804,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190429.jpg 1804w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1878,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190429.jpg 1870w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1920,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190429.jpg 1920w"
+        data-src="http://res.cloudinary.com/hackchallenge/image/upload/w_1920,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190429.jpg"
+        class="lazyload"
+    alt="">
     
-    <img width = "32%" src = "http://res.cloudinary.com/hackchallenge/image/upload/w_2500/v1521063196/MyVacation/IMG_20160619_190322.jpg"/>
-         
+    <!-- <img width = "32%" src = "http://res.cloudinary.com/hackchallenge/image/upload/w_2500,q_auto,f_auto/v1521063196/MyVacation/IMG_20160619_190322.jpg"/> -->
+    <img
+    data-sizes="(min-width: 500px) 32vw, 100vw"
+    data-srcset="
+        http://res.cloudinary.com/hackchallenge/image/upload/w_300,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190322.jpg 300w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_590,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190322.jpg 590w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_800,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190322.jpg 800w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_974,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190322.jpg 974w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1138,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190322.jpg 1138w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1282,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190322.jpg 1282w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1416,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190322.jpg 1416w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1548,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190322.jpg 1548w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1683,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190322.jpg 1683w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1804,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190322.jpg 1804w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1878,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190322.jpg 1870w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1920,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190322.jpg 1920w"
+        data-src="http://res.cloudinary.com/hackchallenge/image/upload/w_1920,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190322.jpg"
+        class="lazyload"
+    alt="">         
 
-    <img width ="32%" src = "http://res.cloudinary.com/hackchallenge/image/upload/w_2500/v1521063204/MyVacation/IMG_20160619_190419.jpg"/>
-         
+    <!-- <img width ="32%" src = "http://res.cloudinary.com/hackchallenge/image/upload/w_2500,q_auto,f_auto/v1521063204/MyVacation/IMG_20160619_190419.jpg"/> -->
+    <img 
+    data-sizes="(min-width: 500px) 32vw, 100vw"
+    data-srcset="
+        http://res.cloudinary.com/hackchallenge/image/upload/w_300,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190419.jpg 300w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_590,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190419.jpg 590w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_800,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190419.jpg 800w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_974,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190419.jpg 974w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1138,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190419.jpg 1138w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1282,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190419.jpg 1282w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1416,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190419.jpg 1416w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1548,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190419.jpg 1548w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1683,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190419.jpg 1683w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1804,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190419.jpg 1804w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1878,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190419.jpg 1870w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1920,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190419.jpg 1920w"
+        data-src="http://res.cloudinary.com/hackchallenge/image/upload/w_1920,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_190419.jpg"
+        class="lazyload"
+    alt="">
+
   <br/>
   </center>
   
   <br/>
   
-  <img width = "49%" src ="http://res.cloudinary.com/hackchallenge/image/upload/w_2500/v1521063231/MyVacation/IMG_20160619_164821632.jpg"/>
-  
-    <img width = "49%" src ="http://res.cloudinary.com/hackchallenge/image/upload/w_2500/v1521063223/MyVacation/IMG_20160619_185025.jpg"/>
-  
+  <!-- <img width = "49%" src ="http://res.cloudinary.com/hackchallenge/image/upload/w_2500,q_auto,f_auto/v1521063231/MyVacation/IMG_20160619_164821632.jpg"/> -->
+    <img width = "49%"
+    data-sizes="(min-width: 500px) 49vw, 100vw"
+    data-srcset="
+        http://res.cloudinary.com/hackchallenge/image/upload/w_300,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_164821632.jpg 300w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_590,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_164821632.jpg 590w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_800,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_164821632.jpg 800w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_974,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_164821632.jpg 974w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1138,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_164821632.jpg 1138w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1282,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_164821632.jpg 1282w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1416,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_164821632.jpg 1416w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1548,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_164821632.jpg 1548w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1683,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_164821632.jpg 1683w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1804,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_164821632.jpg 1804w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1878,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_164821632.jpg 1870w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1920,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_164821632.jpg 1920w"
+        data-src="http://res.cloudinary.com/hackchallenge/image/upload/w_1920,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_164821632.jpg"
+        class="lazyload"
+    alt="">
+
+    <!-- <img width = "49%" src ="http://res.cloudinary.com/hackchallenge/image/upload/w_2500,q_auto,f_auto/v1521063223/MyVacation/IMG_20160619_185025.jpg"/> -->
+    <img width = "49%"
+    data-sizes="(min-width: 500px) 49vw, 100vw"
+    data-srcset="
+        http://res.cloudinary.com/hackchallenge/image/upload/w_300,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_185025.jpg 300w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_590,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_185025.jpg 590w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_800,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_185025.jpg 800w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_974,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_185025.jpg 974w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1138,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_185025.jpg 1138w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1282,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_185025.jpg 1282w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1416,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_185025.jpg 1416w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1548,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_185025.jpg 1548w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1683,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_185025.jpg 1683w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1804,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_185025.jpg 1804w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1878,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_185025.jpg 1870w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1920,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_185025.jpg 1920w"
+        data-src="http://res.cloudinary.com/hackchallenge/image/upload/w_1920,q_auto,f_auto/v1521063217/MyVacation/IMG_20160619_185025.jpg"
+        class="lazyload"
+    alt="">  
   <br/>
   
   <h1>The Alps</h1>
   We stayed in Grindelwald, CH and Innsbruck, AT for a few days, and hiked through the hills and valleys.  There was even a little snow at high elevations in both places!
   
-  <img width = "100%" src ="http://res.cloudinary.com/hackchallenge/image/upload/w_4000/v1521063270/MyVacation/IMG_20160527_151146376-PANO.jpg"/>
- 
-  <img width = "49%" src ="http://res.cloudinary.com/hackchallenge/image/upload/w_2500/v1521063286/MyVacation/IMG_20160604_133957422.jpg"/>
-  
-    <img width = "49%" src ="http://res.cloudinary.com/hackchallenge/image/upload/w_2500/v1521063280/MyVacation/IMG_20160526_135242148_HDR.jpg"/>
-  
-  <img width = "49%" src ="http://res.cloudinary.com/hackchallenge/image/upload/w_2500/v1521063280/MyVacation/IMG_20160525_070350112.jpg"/>
-  
-    <img width = "49%" src ="http://res.cloudinary.com/hackchallenge/image/upload/w_2500/v1521063278/MyVacation/IMG_20160525_070643363_HDR.jpg"/>  
-  
-  <img width = "33%" src ="http://res.cloudinary.com/hackchallenge/image/upload/w_2500/v1521063179/MyVacation/IMG_20160524_210947724.jpg"/> 
-  
-  <img width = "66%" src ="http://res.cloudinary.com/hackchallenge/image/upload/w_2500/v1521063275/MyVacation/IMG_20160603_142347242_HDR-PANO.jpg"/> 
-  
+  <!-- <img width = "100%" src ="http://res.cloudinary.com/hackchallenge/image/upload/w_4000,q_auto,f_auto/v1521063270/MyVacation/IMG_20160527_151146376-PANO.jpg"/> -->
+    <img
+    data-sizes="(max-width: 1920px) 100vw, 1920px"
+    data-srcset="
+        http://res.cloudinary.com/hackchallenge/image/upload/w_300,q_auto,f_auto/v1521063217/MyVacation/IMG_20160527_151146376-PANO.jpg 300w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_590,q_auto,f_auto/v1521063217/MyVacation/IMG_20160527_151146376-PANO.jpg 590w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_800,q_auto,f_auto/v1521063217/MyVacation/IMG_20160527_151146376-PANO.jpg 800w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_974,q_auto,f_auto/v1521063217/MyVacation/IMG_20160527_151146376-PANO.jpg 974w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1138,q_auto,f_auto/v1521063217/MyVacation/IMG_20160527_151146376-PANO.jpg 1138w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1282,q_auto,f_auto/v1521063217/MyVacation/IMG_20160527_151146376-PANO.jpg 1282w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1416,q_auto,f_auto/v1521063217/MyVacation/IMG_20160527_151146376-PANO.jpg 1416w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1548,q_auto,f_auto/v1521063217/MyVacation/IMG_20160527_151146376-PANO.jpg 1548w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1683,q_auto,f_auto/v1521063217/MyVacation/IMG_20160527_151146376-PANO.jpg 1683w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1804,q_auto,f_auto/v1521063217/MyVacation/IMG_20160527_151146376-PANO.jpg 1804w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1878,q_auto,f_auto/v1521063217/MyVacation/IMG_20160527_151146376-PANO.jpg 1870w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1920,q_auto,f_auto/v1521063217/MyVacation/IMG_20160527_151146376-PANO.jpg 1920w"
+        data-src="http://res.cloudinary.com/hackchallenge/image/upload/w_1920,q_auto,f_auto/v1521063217/MyVacation/IMG_20160527_151146376-PANO.jpg"
+        class="lazyload"
+    alt="">
+
+  <!-- <img width = "49%" src ="http://res.cloudinary.com/hackchallenge/image/upload/w_2500,q_auto,f_auto/v1521063286/MyVacation/IMG_20160604_133957422.jpg"/> -->
+    <img
+    data-sizes="(min-width: 500px) 49vw, 100vw"
+    data-srcset="
+        http://res.cloudinary.com/hackchallenge/image/upload/w_300,q_auto,f_auto/v1521063217/MyVacation/IMG_20160604_133957422.jpg 300w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_590,q_auto,f_auto/v1521063217/MyVacation/IMG_20160604_133957422.jpg 590w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_800,q_auto,f_auto/v1521063217/MyVacation/IMG_20160604_133957422.jpg 800w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_974,q_auto,f_auto/v1521063217/MyVacation/IMG_20160604_133957422.jpg 974w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1138,q_auto,f_auto/v1521063217/MyVacation/IMG_20160604_133957422.jpg 1138w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1282,q_auto,f_auto/v1521063217/MyVacation/IMG_20160604_133957422.jpg 1282w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1416,q_auto,f_auto/v1521063217/MyVacation/IMG_20160604_133957422.jpg 1416w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1548,q_auto,f_auto/v1521063217/MyVacation/IMG_20160604_133957422.jpg 1548w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1683,q_auto,f_auto/v1521063217/MyVacation/IMG_20160604_133957422.jpg 1683w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1804,q_auto,f_auto/v1521063217/MyVacation/IMG_20160604_133957422.jpg 1804w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1878,q_auto,f_auto/v1521063217/MyVacation/IMG_20160604_133957422.jpg 1870w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1920,q_auto,f_auto/v1521063217/MyVacation/IMG_20160604_133957422.jpg 1920w"
+        data-src="http://res.cloudinary.com/hackchallenge/image/upload/w_1920,q_auto,f_auto/v1521063217/MyVacation/IMG_20160604_133957422.jpg"
+        class="lazyload"
+    alt="">
+
+    <!-- <img width = "49%" src ="http://res.cloudinary.com/hackchallenge/image/upload/w_2500,q_auto,f_auto/v1521063280/MyVacation/IMG_20160526_135242148_HDR.jpg"/> -->
+    <img
+    data-sizes="(min-width: 500px) 49vw, 100vw"
+    data-srcset="
+        http://res.cloudinary.com/hackchallenge/image/upload/w_300,q_auto,f_auto/v1521063217/MyVacation/IMG_20160526_135242148_HDR.jpg 300w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_590,q_auto,f_auto/v1521063217/MyVacation/IMG_20160526_135242148_HDR.jpg 590w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_800,q_auto,f_auto/v1521063217/MyVacation/IMG_20160526_135242148_HDR.jpg 800w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_974,q_auto,f_auto/v1521063217/MyVacation/IMG_20160526_135242148_HDR.jpg 974w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1138,q_auto,f_auto/v1521063217/MyVacation/IMG_20160526_135242148_HDR.jpg 1138w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1282,q_auto,f_auto/v1521063217/MyVacation/IMG_20160526_135242148_HDR.jpg 1282w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1416,q_auto,f_auto/v1521063217/MyVacation/IMG_20160526_135242148_HDR.jpg 1416w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1548,q_auto,f_auto/v1521063217/MyVacation/IMG_20160526_135242148_HDR.jpg 1548w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1683,q_auto,f_auto/v1521063217/MyVacation/IMG_20160526_135242148_HDR.jpg 1683w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1804,q_auto,f_auto/v1521063217/MyVacation/IMG_20160526_135242148_HDR.jpg 1804w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1878,q_auto,f_auto/v1521063217/MyVacation/IMG_20160526_135242148_HDR.jpg 1870w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1920,q_auto,f_auto/v1521063217/MyVacation/IMG_20160526_135242148_HDR.jpg 1920w"
+        data-src="http://res.cloudinary.com/hackchallenge/image/upload/w_1920,q_auto,f_auto/v1521063217/MyVacation/IMG_20160526_135242148_HDR.jpg"
+        class="lazyload"
+    alt="">
+
+  <!-- <img width = "49%" src ="http://res.cloudinary.com/hackchallenge/image/upload/w_2500,q_auto,f_auto/v1521063280/MyVacation/IMG_20160525_070350112.jpg"/> -->
+    <img
+    data-sizes="(min-width: 500px) 49vw, 100vw"
+    data-srcset="
+        http://res.cloudinary.com/hackchallenge/image/upload/w_300,q_auto,f_auto/v1521063217/MyVacation/IMG_20160525_070350112.jpg 300w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_590,q_auto,f_auto/v1521063217/MyVacation/IMG_20160525_070350112.jpg 590w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_800,q_auto,f_auto/v1521063217/MyVacation/IMG_20160525_070350112.jpg 800w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_974,q_auto,f_auto/v1521063217/MyVacation/IMG_20160525_070350112.jpg 974w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1138,q_auto,f_auto/v1521063217/MyVacation/IMG_20160525_070350112.jpg 1138w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1282,q_auto,f_auto/v1521063217/MyVacation/IMG_20160525_070350112.jpg 1282w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1416,q_auto,f_auto/v1521063217/MyVacation/IMG_20160525_070350112.jpg 1416w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1548,q_auto,f_auto/v1521063217/MyVacation/IMG_20160525_070350112.jpg 1548w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1683,q_auto,f_auto/v1521063217/MyVacation/IMG_20160525_070350112.jpg 1683w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1804,q_auto,f_auto/v1521063217/MyVacation/IMG_20160525_070350112.jpg 1804w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1878,q_auto,f_auto/v1521063217/MyVacation/IMG_20160525_070350112.jpg 1870w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1920,q_auto,f_auto/v1521063217/MyVacation/IMG_20160525_070350112.jpg 1920w"
+        data-src="http://res.cloudinary.com/hackchallenge/image/upload/w_1920,q_auto,f_auto/v1521063217/MyVacation/IMG_20160525_070350112.jpg"
+        class="lazyload"
+    alt="">
+
+    <!-- <img width = "49%" src ="http://res.cloudinary.com/hackchallenge/image/upload/w_2500,q_auto,f_auto/v1521063278/MyVacation/IMG_20160525_070643363_HDR.jpg"/>   -->
+    <img
+    data-sizes="(min-width: 500px) 49vw, 100vw"
+    data-srcset="
+        http://res.cloudinary.com/hackchallenge/image/upload/w_300,q_auto,f_auto/v1521063217/MyVacation/IMG_20160525_070643363_HDR.jpg 300w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_590,q_auto,f_auto/v1521063217/MyVacation/IMG_20160525_070643363_HDR.jpg 590w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_800,q_auto,f_auto/v1521063217/MyVacation/IMG_20160525_070643363_HDR.jpg 800w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_974,q_auto,f_auto/v1521063217/MyVacation/IMG_20160525_070643363_HDR.jpg 974w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1138,q_auto,f_auto/v1521063217/MyVacation/IMG_20160525_070643363_HDR.jpg 1138w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1282,q_auto,f_auto/v1521063217/MyVacation/IMG_20160525_070643363_HDR.jpg 1282w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1416,q_auto,f_auto/v1521063217/MyVacation/IMG_20160525_070643363_HDR.jpg 1416w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1548,q_auto,f_auto/v1521063217/MyVacation/IMG_20160525_070643363_HDR.jpg 1548w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1683,q_auto,f_auto/v1521063217/MyVacation/IMG_20160525_070643363_HDR.jpg 1683w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1804,q_auto,f_auto/v1521063217/MyVacation/IMG_20160525_070643363_HDR.jpg 1804w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1878,q_auto,f_auto/v1521063217/MyVacation/IMG_20160525_070643363_HDR.jpg 1870w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1920,q_auto,f_auto/v1521063217/MyVacation/IMG_20160525_070643363_HDR.jpg 1920w"
+        data-src="http://res.cloudinary.com/hackchallenge/image/upload/w_1920,q_auto,f_auto/v1521063217/MyVacation/IMG_20160525_070643363_HDR.jpg"
+        class="lazyload"
+    alt="">
+
+  <!-- <img width = "33%" src ="http://res.cloudinary.com/hackchallenge/image/upload/w_2500,q_auto,f_auto/v1521063179/MyVacation/IMG_20160524_210947724.jpg"/>  -->
+    <img
+    data-sizes="(min-width: 500px) 33vw, 100vw"
+    data-srcset="
+        http://res.cloudinary.com/hackchallenge/image/upload/w_300,q_auto,f_auto/v1521063217/MyVacation/IMG_20160524_210947724.jpg 300w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_590,q_auto,f_auto/v1521063217/MyVacation/IMG_20160524_210947724.jpg 590w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_800,q_auto,f_auto/v1521063217/MyVacation/IMG_20160524_210947724.jpg 800w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_974,q_auto,f_auto/v1521063217/MyVacation/IMG_20160524_210947724.jpg 974w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1138,q_auto,f_auto/v1521063217/MyVacation/IMG_20160524_210947724.jpg 1138w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1282,q_auto,f_auto/v1521063217/MyVacation/IMG_20160524_210947724.jpg 1282w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1416,q_auto,f_auto/v1521063217/MyVacation/IMG_20160524_210947724.jpg 1416w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1548,q_auto,f_auto/v1521063217/MyVacation/IMG_20160524_210947724.jpg 1548w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1683,q_auto,f_auto/v1521063217/MyVacation/IMG_20160524_210947724.jpg 1683w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1804,q_auto,f_auto/v1521063217/MyVacation/IMG_20160524_210947724.jpg 1804w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1878,q_auto,f_auto/v1521063217/MyVacation/IMG_20160524_210947724.jpg 1870w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1920,q_auto,f_auto/v1521063217/MyVacation/IMG_20160524_210947724.jpg 1920w"
+        data-src="http://res.cloudinary.com/hackchallenge/image/upload/w_1920,q_auto,f_auto/v1521063217/MyVacation/IMG_20160524_210947724.jpg"
+        class="lazyload"
+    alt="">
+
+  <!-- <img width = "66%" src ="http://res.cloudinary.com/hackchallenge/image/upload/w_2500,q_auto,f_auto/v1521063275/MyVacation/IMG_20160603_142347242_HDR-PANO.jpg"/>  -->
+    <img
+    data-sizes="(min-width: 500px) 66vw, 100vw"    
+    data-srcset="
+        http://res.cloudinary.com/hackchallenge/image/upload/w_300,q_auto,f_auto/v1521063217/MyVacation/IMG_20160603_142347242_HDR-PANO.jpg 300w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_590,q_auto,f_auto/v1521063217/MyVacation/IMG_20160603_142347242_HDR-PANO.jpg 590w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_800,q_auto,f_auto/v1521063217/MyVacation/IMG_20160603_142347242_HDR-PANO.jpg 800w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_974,q_auto,f_auto/v1521063217/MyVacation/IMG_20160603_142347242_HDR-PANO.jpg 974w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1138,q_auto,f_auto/v1521063217/MyVacation/IMG_20160603_142347242_HDR-PANO.jpg 1138w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1282,q_auto,f_auto/v1521063217/MyVacation/IMG_20160603_142347242_HDR-PANO.jpg 1282w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1416,q_auto,f_auto/v1521063217/MyVacation/IMG_20160603_142347242_HDR-PANO.jpg 1416w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1548,q_auto,f_auto/v1521063217/MyVacation/IMG_20160603_142347242_HDR-PANO.jpg 1548w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1683,q_auto,f_auto/v1521063217/MyVacation/IMG_20160603_142347242_HDR-PANO.jpg 1683w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1804,q_auto,f_auto/v1521063217/MyVacation/IMG_20160603_142347242_HDR-PANO.jpg 1804w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1878,q_auto,f_auto/v1521063217/MyVacation/IMG_20160603_142347242_HDR-PANO.jpg 1870w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1920,q_auto,f_auto/v1521063217/MyVacation/IMG_20160603_142347242_HDR-PANO.jpg 1920w"
+        data-src="http://res.cloudinary.com/hackchallenge/image/upload/w_1920,q_auto,f_auto/v1521063217/MyVacation/IMG_20160603_142347242_HDR-PANO.jpg"
+        class="lazyload"
+    alt="">
+
   <br/>
   <h1>Como, Italy</h1>
   
   <p>From the Alps, we made our way south to Italy, where we stayed in an old wheat silo (yes it was basically one big tall round room, with beds in a loft).  On the rainy day, we did what any normal Pacific Northwesterner would do - we went for a day hike in the mountains!</p>
   
-  <img width = "49%" src ="http://res.cloudinary.com/hackchallenge/image/upload/w_2500/v1521063244/MyVacation/IMG_20160517_200645173.jpg"/>
-  
-  <img width = "49%" src ="http://res.cloudinary.com/hackchallenge/image/upload/w_2500/v1521063244/MyVacation/IMG_20160518_122416547.jpg"/>
-  
+  <!-- <img width = "49%" src ="http://res.cloudinary.com/hackchallenge/image/upload/w_2500,q_auto,f_auto/v1521063244/MyVacation/IMG_20160517_200645173.jpg"/> -->
+    <img
+    data-sizes="(min-width: 500px) 49vw, 100vw"
+    data-srcset="
+        http://res.cloudinary.com/hackchallenge/image/upload/w_300,q_auto,f_auto/v1521063217/MyVacation/IMG_20160517_200645173.jpg 300w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_590,q_auto,f_auto/v1521063217/MyVacation/IMG_20160517_200645173.jpg 590w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_800,q_auto,f_auto/v1521063217/MyVacation/IMG_20160517_200645173.jpg 800w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_974,q_auto,f_auto/v1521063217/MyVacation/IMG_20160517_200645173.jpg 974w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1138,q_auto,f_auto/v1521063217/MyVacation/IMG_20160517_200645173.jpg 1138w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1282,q_auto,f_auto/v1521063217/MyVacation/IMG_20160517_200645173.jpg 1282w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1416,q_auto,f_auto/v1521063217/MyVacation/IMG_20160517_200645173.jpg 1416w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1548,q_auto,f_auto/v1521063217/MyVacation/IMG_20160517_200645173.jpg 1548w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1683,q_auto,f_auto/v1521063217/MyVacation/IMG_20160517_200645173.jpg 1683w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1804,q_auto,f_auto/v1521063217/MyVacation/IMG_20160517_200645173.jpg 1804w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1878,q_auto,f_auto/v1521063217/MyVacation/IMG_20160517_200645173.jpg 1870w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1920,q_auto,f_auto/v1521063217/MyVacation/IMG_20160517_200645173.jpg 1920w"
+        data-src="http://res.cloudinary.com/hackchallenge/image/upload/w_1920,q_auto,f_auto/v1521063217/MyVacation/IMG_20160517_200645173.jpg"
+        class="lazyload"
+    alt="">
+
+  <!-- <img width = "49%" src ="http://res.cloudinary.com/hackchallenge/image/upload/w_2500,q_auto,f_auto/v1521063244/MyVacation/IMG_20160518_122416547.jpg"/> -->
+    <img
+    data-sizes="(min-width: 500px) 49vw, 100vw"
+    data-srcset="
+        http://res.cloudinary.com/hackchallenge/image/upload/w_300,q_auto,f_auto/v1521063217/MyVacation/IMG_20160518_122416547 300w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_590,q_auto,f_auto/v1521063217/MyVacation/IMG_20160518_122416547 590w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_800,q_auto,f_auto/v1521063217/MyVacation/IMG_20160518_122416547 800w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_974,q_auto,f_auto/v1521063217/MyVacation/IMG_20160518_122416547 974w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1138,q_auto,f_auto/v1521063217/MyVacation/IMG_20160518_122416547 1138w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1282,q_auto,f_auto/v1521063217/MyVacation/IMG_20160518_122416547 1282w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1416,q_auto,f_auto/v1521063217/MyVacation/IMG_20160518_122416547 1416w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1548,q_auto,f_auto/v1521063217/MyVacation/IMG_20160518_122416547 1548w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1683,q_auto,f_auto/v1521063217/MyVacation/IMG_20160518_122416547 1683w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1804,q_auto,f_auto/v1521063217/MyVacation/IMG_20160518_122416547 1804w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1878,q_auto,f_auto/v1521063217/MyVacation/IMG_20160518_122416547 1870w,
+        http://res.cloudinary.com/hackchallenge/image/upload/w_1920,q_auto,f_auto/v1521063217/MyVacation/IMG_20160518_122416547 1920w"
+        data-src="http://res.cloudinary.com/hackchallenge/image/upload/w_1920,q_auto,f_auto/v1521063217/MyVacation/IMG_20160518_122416547"
+        class="lazyload"
+    alt="">
 </body>
 </html>
